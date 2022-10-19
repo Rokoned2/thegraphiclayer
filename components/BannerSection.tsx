@@ -13,7 +13,6 @@ const BannerSection = () => {
       <Swiper
         spaceBetween={50}
         className=""
-        onSlideChange={() => console.log("slide change")}
         modules={[Pagination]}
         pagination={true}
         onSwiper={(swiper) => console.log(swiper)}

@@ -14,7 +14,7 @@ const ContactSection = () => {
     register,
     handleSubmit,
     formState: { errors },
-  } = useForm();
+  } = useForm<FormData>();
 
   const onSubmit = (data: FormData) => {
     console.log(data);

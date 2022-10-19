@@ -19,8 +19,6 @@ const Home: NextPage = () => {
       <BannerSection />
       <AboutSection />
       <PortfolioSection />
-      <ContactSection />
-      
     </div>
   );
 };

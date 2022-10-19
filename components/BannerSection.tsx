@@ -3,8 +3,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
-import firstSlide from "../images/fish-shark.jpg";
-import secondSlide from "../images/Orthodontics-Website.jpg";
+import firstSlide from "../images/Orthodontics-Website.jpg";
+import secondSlide from "../images/fish-shark.jpg";
 import Image from "next/image";
 
 const BannerSection = () => {

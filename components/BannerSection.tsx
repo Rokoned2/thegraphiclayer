@@ -9,20 +9,20 @@ import Image from "next/image";
 
 const BannerSection = () => {
   return (
-    <section className="relative font-montserrat mt-24">
+    <section className="relative font-montserrat sm:mt-11 md:mt-24">
       <Swiper
         spaceBetween={50}
-        className="h-screen"
+        className=""
         onSlideChange={() => console.log("slide change")}
         modules={[Pagination]}
         pagination={true}
         onSwiper={(swiper) => console.log(swiper)}
       >
         <SwiperSlide>
-          <Image src={firstSlide} className="bg-cover" />
+          <Image src={firstSlide} className="bg-cover" objectFit="cover" />
         </SwiperSlide>
         <SwiperSlide>
-          <Image src={secondSlide} className="bg-cover" />
+          <Image src={secondSlide} className="bg-cover" objectFit="cover" />
         </SwiperSlide>
       </Swiper>
 

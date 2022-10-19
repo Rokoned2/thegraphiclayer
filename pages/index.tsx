@@ -3,6 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import AboutSection from "../components/AboutSection";
 import BannerSection from "../components/BannerSection";
+import ContactSection from "../components/ContactSection";
 import Header from "../components/Header";
 import PortfolioSection from "../components/PortfolioSection";
 
@@ -10,7 +11,7 @@ const Home: NextPage = () => {
   return (
     <div className="font-montserrat">
       <Head>
-        <title>Create Next App</title>
+        <title>TGL | The Graphic Layer</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -18,6 +19,8 @@ const Home: NextPage = () => {
       <BannerSection />
       <AboutSection />
       <PortfolioSection />
+      <ContactSection />
+      
     </div>
   );
 };

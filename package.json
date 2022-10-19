@@ -9,6 +9,7 @@
     "next": "latest",
     "react": "18.1.0",
     "react-dom": "18.1.0",
+    "react-hook-form": "^7.38.0",
     "react-icons": "^4.6.0",
     "swiper": "^8.4.4"
   },

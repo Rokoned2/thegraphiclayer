@@ -19,9 +19,11 @@ const PortfolioSection = () => {
             y de alto funcionamiento que se adapte a la marca y los objetivos de
             su empresa.
           </p>
-          <button className="bg-[#16d0c5] text-white px-8 py-3 uppercase hover:bg-[#15aca3] transition-colors font-lato mt-10">
-            OBTÉN UNA COTIZACIÓN
-          </button>
+          <a href="#contactSection">
+            <button className="bg-[#16d0c5] text-white px-8 py-3 uppercase hover:bg-[#15aca3] transition-colors font-lato mt-10">
+              OBTÉN UNA COTIZACIÓN
+            </button>
+          </a>
         </div>
         <div className="flex justify-evenly xl:w-2/3 w-full mt-10 md:mt-0">
           <div className="w-[13.2rem]">

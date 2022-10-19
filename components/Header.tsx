@@ -53,16 +53,18 @@ const Header = () => {
           <Image src={logo} className="" alt="" />
         </div>
         <div className="flex items-center">
-          <button className="hidden md:block bg-[#16d0c5] px-5 py-3 font-bold mr-4">
+          <a
+            className="hidden md:block bg-[#16d0c5] px-5 py-3 font-bold mr-4"
+            href="#contactSection"
+          >
             OBTÉN UNA COTIZACIÓN
-          </button>
+          </a>
           <button>
             <div className="flex flex-col">
               <div className=""></div>
               <div></div>
               <div></div>
             </div>
-            MENÚ
           </button>
         </div>
       </nav>

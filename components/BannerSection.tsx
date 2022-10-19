@@ -34,9 +34,11 @@ const BannerSection = () => {
           <p className="text-[1.875rem] font-montserrat leading-[1] py-9 text-[#4a4a4a]">
             diseñados con innovación y resultados efectivos en mente
           </p>
-          <button className="bg-[#16d0c5] text-white px-8 py-3 uppercase hover:bg-[#15aca3] transition-colors font-lato">
-            Contáctanos
-          </button>
+          <a href="#contactSection">
+            <button className="bg-[#16d0c5] text-white px-8 py-3 uppercase hover:bg-[#15aca3] transition-colors font-lato">
+              Contáctanos
+            </button>
+          </a>
         </div>
       </div>
     </section>

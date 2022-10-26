@@ -5,7 +5,7 @@ import responsive from "../images/responsive.svg";
 const AboutSection = () => {
   return (
     <div className="my-16 text-center">
-      <div className="h-[5.875rem] w-[23.75rem] fill-[#4381A6] mx-auto">
+      <div className="h-[5.875rem] w-full max-w-[23.75rem] fill-[#4381A6] mx-auto">
         <Image src={responsive} />
       </div>
 

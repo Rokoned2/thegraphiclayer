@@ -26,7 +26,11 @@ const ContactSection = () => {
       md:bg-[url('https://www.digitalsilk.com/wp-content/themes/digitalsilk/assets/images/bg/raq-bg-bot--d.jpg')] bg-repeat-x bg-cover py-32"
       id="contactSection"
     >
-      <div className="p-[1.875rem] bg-[#1a315d] max-w-[35rem] mx-auto text-white text-[1rem] md:text-[1.3125rem]">
+      <form
+        className="p-[1.875rem] bg-[#1a315d] max-w-[35rem] mx-auto text-white text-[1rem] md:text-[1.3125rem]"
+        method="post"
+        data-netlify="true"
+      >
         <h3 className="text-[1.3125rem] md:text-[2.375rem] uppercase font-bold mb-10 text-center">
           Obtén una cotización
         </h3>
@@ -97,7 +101,7 @@ const ContactSection = () => {
         >
           Enviar
         </button>
-      </div>
+      </form>
     </section>
   );
 };

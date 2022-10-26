@@ -13,6 +13,7 @@ const BannerSection = () => {
       <Swiper
         spaceBetween={50}
         className=""
+        loop={true}
         modules={[Pagination]}
         pagination={true}
         onSwiper={(swiper) => console.log(swiper)}
@@ -27,7 +28,7 @@ const BannerSection = () => {
 
       <div className="xl:absolute xl:w-1/2 top-9 left-8 z-10 bg-white/80 text-center p-[1.25rem] block">
         <div className="w-full h-full border-[1px] border-[#d3d05e] py-4">
-          <h3 className="text-[#256dd6] text-[2.25rem] sm:text-[3.125rem] font-light leading-[1]	">
+          <h3 className="text-[#256dd6] text-[2rem] sm:text-[3.125rem] font-light leading-[1]	">
             WEBSITES PERSONALIZADOS DE CALIDAD
           </h3>
           <p className="text-[1.875rem] font-montserrat leading-[1] py-9 text-[#4a4a4a]">

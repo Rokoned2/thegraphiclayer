@@ -12,7 +12,7 @@ const Home: NextPage = () => {
   return (
     <div className="font-montserrat">
       <Head>
-        <title>TGL | The Graphic Layer</title>
+        <title>GL | Graphic Layer</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

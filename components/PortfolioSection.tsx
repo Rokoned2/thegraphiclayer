@@ -28,16 +28,13 @@ const PortfolioSection = () => {
         </div>
         <div className="flex flex-wrap justify-start lg:justify-evenly xl:w-2/3 w-full mt-4 md:mt-0">
           <div className="w-1/2 sm:flex-1 drop-shadow-md pr-4">
-            <a
-              href="https://lawyer-page-model-1-rokoned2.vercel.app/"
-              target="_blank"
-            >
+            <a href="https://williamslex.vercel.app/" target="_blank">
               <Image src={williamsScreen} className="bg-cover drop-shadow-md" />
             </a>
           </div>
 
           <div className="w-1/2 sm:flex-1 drop-shadow-md	sm:pr-4">
-            <a href="https://williamslex.vercel.app/" target="_blank">
+            <a href="san-marcos-college.vercel.app" target="_blank">
               <Image src={unmsmScreen} className="bg-cover" />
             </a>
           </div>

@@ -37,12 +37,12 @@ const PortfolioSection = () => {
           </div>
 
           <div className="w-1/2 sm:flex-1 drop-shadow-md	sm:pr-4">
-            <a href="https://san-marcos-college.vercel.app/" target="_blank">
+            <a href="https://williamslex.vercel.app/" target="_blank">
               <Image src={unmsmScreen} className="bg-cover" />
             </a>
           </div>
           <div className="w-1/2 sm:flex-1 drop-shadow-md pr-4 sm:pr-0">
-            <a href="https://san-marcos-college.vercel.app/" target="_blank">
+            <a href="https://estudiougaz.vercel.app/" target="_blank">
               <Image src={ugazZegarra} className="bg-cover" />
             </a>
           </div>

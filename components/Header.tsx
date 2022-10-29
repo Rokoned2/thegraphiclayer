@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { RiPhoneFill } from "react-icons/ri";
 import { FaPaintBrush } from "react-icons/fa";
 import { GrMail } from "react-icons/gr";
-import logo from "../images/graphicLayer.svg";
+import logo from "../images/graphicLawyer.svg";
 import Image from "next/image";
 
 const Header = () => {
@@ -33,7 +33,7 @@ const Header = () => {
         <div className="flex w-2/3 xl:w-1/2">
           <div className="flex items-center w-1/2">
             <GrMail className="w-4 h-4 mr-2 shrink-0	 text-[#0FB3D0]" />
-            <p>thegraphiclayer@gmail.com</p>
+            <p>thegraphiclawyer@gmail.com</p>
           </div>
           <div className="flex items-center w-1/2 text-base justify-center">
             <RiPhoneFill className="w-4 h-4 mr-2 text-[#0FB3D0]" />

@@ -6,6 +6,7 @@ import BannerSection from "../components/BannerSection";
 import ContactSection from "../components/ContactSection";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import MonthWinsSection from "../components/MonthWinsSection";
 import PortfolioSection from "../components/PortfolioSection";
 
 const Home: NextPage = () => {
@@ -19,6 +20,7 @@ const Home: NextPage = () => {
       <Header />
       <BannerSection />
       <AboutSection />
+      <MonthWinsSection />
       <PortfolioSection />
       <ContactSection />
       <Footer />

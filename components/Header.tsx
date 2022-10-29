@@ -28,7 +28,7 @@ const Header = () => {
       <div className="hidden sm:flex justify-between py-2 px-4 border-b-[1px] text-xs md:text-sm text-[#7f7f7f]">
         <div className="flex items-center w-1/3 xl:w-1/4 xl:ml-auto w-17 whitespace-normal">
           <FaPaintBrush className="w-4 h-4 mr-2 text-[#0FB3D0]" />
-          <p>Agencia de Diseño Gráfico</p>
+          <p>Agencia de Diseño Digital</p>
         </div>
         <div className="flex w-2/3 xl:w-1/2">
           <div className="flex items-center w-1/2">

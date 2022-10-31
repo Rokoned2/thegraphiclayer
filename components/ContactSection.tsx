@@ -16,10 +16,6 @@ const ContactSection = () => {
     formState: { errors },
   } = useForm<FormData>();
 
-  const onSubmit = (data: FormData) => {
-    console.log(data);
-  };
-
   return (
     <section
       className="w-full bg-[url('https://www.digitalsilk.com/wp-content/themes/digitalsilk/assets/images/bg/exp-waves-m.jpg')] px-5
@@ -28,13 +24,15 @@ const ContactSection = () => {
     >
       <form
         className="p-[1.875rem] bg-[#1a315d] max-w-[35rem] mx-auto text-white text-[1rem] md:text-[1.3125rem]"
+        name="contact v1"
         method="post"
         data-netlify="true"
+        onSubmit="submit"
       >
         <h3 className="text-[1.3125rem] md:text-[2.375rem] uppercase font-bold mb-10 text-center">
           Obtén una cotización
         </h3>
-
+        <input type="hidden" name="form-name" value="contact v1" />
         <input
           {...register("name", { required: true })}
           className="p-3 w-full border-b-[1px] border-[#04d0f1] outline-0 bg-transparent "
@@ -96,7 +94,7 @@ const ContactSection = () => {
         </div>
 
         <button
-          onClick={handleSubmit(onSubmit)}
+          type="submit"
           className="bg-black text-white mt-4 block w-full py-3 hover:bg-[#444] transition-colors "
         >
           Enviar

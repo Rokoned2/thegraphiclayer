@@ -42,7 +42,7 @@ const PortfolioSection = () => {
           </div>
 
           <div className="w-1/2 sm:flex-1 drop-shadow-md	sm:pr-4">
-            <a href="san-marcos-college.vercel.app" target="_blank">
+            <a href="https://san-marcos-college.vercel.app/" target="_blank">
               <Image src={unmsmScreen} className="bg-cover" />
             </a>
           </div>

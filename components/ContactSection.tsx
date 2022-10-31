@@ -23,14 +23,19 @@ const ContactSection = () => {
     >
       <form
         className="p-[1.875rem] bg-[#1a315d] max-w-[35rem] mx-auto text-white text-[1rem] md:text-[1.3125rem]"
-        name="contact v1"
+        name="contact v2"
         method="post"
         data-netlify="true"
+        data-netlify-honeypot="bot-field"
       >
         <h3 className="text-[1.3125rem] md:text-[2.375rem] uppercase font-bold mb-10 text-center">
           Obtén una cotización
         </h3>
-        <input type="hidden" name="form-name" value="contact v1" />
+        <input type="hidden" name="form-name" value="contact v2" />
+        <div hidden>
+          <input name="bot-field" />
+        </div>
+
         <input
           {...register("name", { required: true })}
           className="p-3 w-full border-b-[1px] border-[#04d0f1] outline-0 bg-transparent "

@@ -29,15 +29,15 @@ const Buttons = () => {
         <div
           className={`
         ${activeMessage}
-        fixed py-5 pl-5 pr-2 bottom-3 left-3 bg-white z-[90] flex items-center rounded-full shadow-2xl transition-opacity duration-500`}
+        fixed py-2 pl-2 sm:py-5 sm:pl-5 pr-2 bottom-3 left-3 bg-white z-[90] flex items-center rounded-full shadow-2xl transition-opacity duration-500`}
         >
           <div className="w-14 h-14 mr-4 flex items-center">
             <Image src={map} alt="" />
           </div>
-          <div className="text-sm">
-            <b>Estudio Bardales & Abogados, La Libertad</b>
+          <div className="text-xs sm:text-sm">
+            <b className="">Estudio Bardales & Ab..., La Libertad</b>
             <p className="text-[#686B81]">
-              compró DISEÑO DE LOGOS PRO... hace 5 horas.
+              compró DISEÑO DE LOGOS... hace 5 horas.
             </p>
             <div className="flex items-center">
               <div className="w-4 h-4 mr-2">

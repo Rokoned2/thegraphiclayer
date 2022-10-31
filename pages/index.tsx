@@ -15,7 +15,9 @@ import Buttons from "../components/Buttons";
 
 const Home: NextPage = () => {
   useEffect(() => {
-    AOS.init();
+    AOS.init({
+      disable: "mobile",
+    });
     AOS.refresh();
   }, []);
 

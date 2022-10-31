@@ -12,6 +12,7 @@ import MonthWinsSection from "../components/MonthWinsSection";
 import PortfolioSection from "../components/PortfolioSection";
 import ServicesSection from "../components/ServicesSection";
 import Buttons from "../components/Buttons";
+import previewImage from "../public/graphiclawyer.png";
 
 const Home: NextPage = () => {
   useEffect(() => {
@@ -31,6 +32,29 @@ const Home: NextPage = () => {
 Vendemos páginas web con diseños profesionales a estudios jurídicos, etc."
         />
         <meta property="og:title" content="GL | Graphic Layer" />
+        <meta
+          property="og:url"
+          content="https://graphiclawyer.netlify.app/"
+          key="ogurl"
+        />
+        <meta property="og:image" content={previewImage.src} key="ogimage" />
+        <meta
+          property="og:site_name"
+          content={"Graphic Lawyer"}
+          key="ogsitename"
+        />
+        <meta
+          property="og:title"
+          content={"GL | Graphic Layer"}
+          key="ogtitle"
+        />
+        <meta
+          property="og:description"
+          content={
+            "Hola, Somos Graphic Lawyer. Vendemos páginas web con diseños profesionales a estudios jurídicos, etc."
+          }
+          key="ogdesc"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

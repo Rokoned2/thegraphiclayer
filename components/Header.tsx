@@ -41,7 +41,7 @@ const Header = () => {
       </div>
       <nav
         className={`flex transition-all duration-500 ${
-          fix ? "!fixed top-0 sm:!py-2 xxl:!pl-16" : ""
+          fix ? "!fixed top-0 sm:!py-2 xxl:!pl-16" : "fixed "
         } block sm:absolute z-20 w-full left-0 items-center justify-between bg-[#15376C]/90 text-white px-5 xxl:px-10 py-[0.625rem] md:py-[1.5625rem]`}
       >
         <div

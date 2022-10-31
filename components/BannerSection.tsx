@@ -9,7 +9,7 @@ import Image from "next/image";
 
 const BannerSection = () => {
   return (
-    <section className="relative font-montserrat sm:mt-11 md:mt-24">
+    <section className="relative font-montserrat pt-[2.78625rem] sm:pt-0 sm:mt-11 md:mt-24">
       <Swiper
         spaceBetween={50}
         className=""

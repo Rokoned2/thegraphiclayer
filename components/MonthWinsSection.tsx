@@ -26,7 +26,7 @@ const MonthWinsSection = () => {
                 MÁS DE <span className="text-[1.375rem] font-[500]">50</span>
               </p>
               <p className="text-[0.75rem] ">
-                clientes felices nuestros resultados
+                clientes felices con nuestros resultados
               </p>
             </div>
 

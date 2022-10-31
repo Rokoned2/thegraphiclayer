@@ -9,7 +9,7 @@ const Buttons = () => {
     "opacity-0 pointer-events-none"
   );
   useEffect(() => {
-    let timer;
+    let timer: ReturnType<typeof setTimeout>;
     setTimeout(() => {
       setActiveMessage("opacity-1");
 

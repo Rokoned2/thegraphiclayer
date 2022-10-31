@@ -25,6 +25,12 @@ const Home: NextPage = () => {
     <div className="font-montserrat relative ">
       <Head>
         <title>GL | Graphic Layer</title>
+        <meta
+          name="description"
+          content="Hola, Somos Graphic Lawyer.
+Vendemos páginas web con diseños profesionales a estudios jurídicos, etc."
+        />
+        <meta property="og:title" content="GL | Graphic Layer" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

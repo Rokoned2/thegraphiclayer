@@ -25,7 +25,7 @@ const Buttons = () => {
 
   return (
     <>
-      <a href="https://wp-social-proof.com/" target="_blank">
+      {/* <a href="https://wp-social-proof.com/" target="_blank">
         <div
           className={`
         ${activeMessage}
@@ -49,7 +49,7 @@ const Buttons = () => {
             </div>
           </div>
         </div>
-      </a>
+      </a> */}
       <a
         href="https://api.whatsapp.com/send/?phone=%2B51934498220&text&type=phone_number&app_absent=0"
         target="_blank"

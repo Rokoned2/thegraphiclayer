@@ -25,13 +25,13 @@ const Home: NextPage = () => {
   return (
     <div className="font-montserrat relative ">
       <Head>
-        <title>GL | Graphic Layer</title>
+        <title>GL | Graphic Lawyer</title>
         <meta
           name="description"
           content="Hola, Somos Graphic Lawyer.
 Vendemos páginas web con diseños profesionales a estudios jurídicos, etc."
         />
-        <meta property="og:title" content="GL | Graphic Layer" />
+        <meta property="og:title" content="GL | Graphic Lawyer" />
         <meta
           property="og:url"
           content="https://graphiclawyer.netlify.app/"
@@ -45,7 +45,7 @@ Vendemos páginas web con diseños profesionales a estudios jurídicos, etc."
         />
         <meta
           property="og:title"
-          content={"GL | Graphic Layer"}
+          content={"GL | Graphic Lawyer"}
           key="ogtitle"
         />
         <meta

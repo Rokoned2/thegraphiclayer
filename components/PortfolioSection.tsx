@@ -33,22 +33,31 @@ const PortfolioSection = () => {
           data-aos="fade-left"
           data-aos-duration="1500"
           data-aos-offset="-100"
-          className="flex flex-wrap justify-start lg:justify-evenly xl:w-2/3 w-full mt-4 md:mt-0"
+          className="flex flex-wrap items-start justify-start lg:justify-evenly xl:w-2/3 w-full mt-4 md:mt-0"
         >
-          <div className="w-1/2 sm:flex-1 drop-shadow-md pr-4">
+          <div className="w-1/2 sm:flex-1 drop-shadow-md pr-4 h-full">
             <a href="https://williamslex.vercel.app/" target="_blank">
-              <Image src={williamsScreen} className="bg-cover drop-shadow-md" />
+              <img
+                src="https://i.postimg.cc/wxH86d7L/williamslex.png"
+                className="bg-cover drop-shadow-md"
+              />
             </a>
           </div>
 
           <div className="w-1/2 sm:flex-1 drop-shadow-md	sm:pr-4">
             <a href="https://san-marcos-college.vercel.app/" target="_blank">
-              <Image src={unmsmScreen} className="bg-cover" />
+              <img
+                src="https://i.postimg.cc/PTXs9TGk/unmsm.png"
+                className="bg-cover"
+              />
             </a>
           </div>
           <div className="w-1/2 sm:flex-1 drop-shadow-md pr-4 sm:pr-0">
             <a href="https://estudiougaz.vercel.app/" target="_blank">
-              <Image src={ugazZegarra} className="bg-cover" />
+              <img
+                src="https://i.postimg.cc/9VtHLznp/Ugaz-Zegarra.png"
+                className="bg-cover"
+              />
             </a>
           </div>
         </div>

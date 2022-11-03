@@ -19,10 +19,16 @@ const BannerSection = () => {
         onSwiper={(swiper) => console.log(swiper)}
       >
         <SwiperSlide>
-          <Image src={firstSlide} className="bg-cover" objectFit="cover" />
+          <img
+            src="https://www.keydesignwebsites.com/wp-content/uploads/2018/05/Orthodontics-Website.jpg"
+            className="bg-cover"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <Image src={secondSlide} className="bg-cover" objectFit="cover" />
+          <img
+            src="https://www.keydesignwebsites.com/wp-content/uploads/2018/05/fish-shark.jpg"
+            className="bg-cover"
+          />
         </SwiperSlide>
       </Swiper>
 
